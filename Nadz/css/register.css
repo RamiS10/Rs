@@ -1,0 +1,125 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+#background{
+    background-color: #000;
+    background-image: url(../images/banner12.jpg);
+    background-position: center;
+    background-size: cover;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+#loginContainer *{
+    
+    color: #794c74;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: normal;
+    line-height: 1em;
+    box-sizing: border-box;
+}
+
+#loginContainer{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1024px;
+}
+
+#inputContainer{
+    width: 400px;
+    padding: 45;
+    float: left;
+    border-right: 1px solid #794c74;
+}
+
+#inputContainer h2{
+    text-align: center;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"] {
+    display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+#inputContainer label{
+    color: #794c74;
+    font-size: 13px;
+    margin-top: 15px;
+    display: block;
+}
+
+#inputContainer button{
+    background-color: transparent;
+    border: 2px solid: #fff;
+    border-radius: 250px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    height: 41px;
+    width: 100%;
+}
+
+#inputContainer button:hover{
+    cursor: pointer;
+    
+}
+
+.hasAccountText span{
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.hasAccountText{
+    text-align: center;
+}
+
+#registerForm,
+#loginForm {
+    display: none;
+}
+
+#loginText{
+    padding: 70px;
+    display: table-cell;
+}
+
+#loginText h1{
+    color: #b83b5e;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#loginText h2{
+    margin: 35px 0;
+    color: #6a2c70;
+}
+
+#loginText ul{
+    padding: 0;
+}
+
+#loginText li{
+    font-size: 15px;
+    list-style-type: circle;
+    padding: 10px;
+}
+
+#inputContainer .errorMessage{
+    color: #b83b5e;
+    font-size: 12px;
+    display: block;
+}
